@@ -9,7 +9,9 @@ class AdminSanPham extends Controller
 {
      
     public function getDanhsach(){
+
     	$sanpham =  sanpham::all();
+        $thuonghieu =  thuonghieu::all();
     	return view('admin.sanpham.danhsach',compact('sanpham','thuonghieu'));
     }
     public function getSua($id){

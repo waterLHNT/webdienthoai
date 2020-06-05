@@ -34,6 +34,7 @@
                     </div>
                     <div class="panel-body">
                         Tài khoản: admin@gmail.com
+                        <br>
                         Mật khẩu: admin@gmail.com
                         @if(count($errors) > 0)
                             <div class="alert alert-danger">
